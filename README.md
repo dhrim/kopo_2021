@@ -1,151 +1,48 @@
 
 
-# 빅데이터 분석 기반 비즈니스 개발자 양성 & 취업연계 과정
+# 한국폴리텍 Keras를 활용한 영상데이터 분류 과정
 
-- 딥러닝을 위한 파이썬 : [python_for_deep_leaarning.md](material/python_for_deep_leaarning.md)
-- 딥러닝을 위한 라이브러리 : [library_for_deep_leaarning.md](material/library_for_deep_leaarning.md)
-- 딥러닝 : [deep_learning.md](material/deep_learning.md)
+# 1일차
+
 
 <br>
 
-# 딥러닝 활용을 위한 지식 구조
-
-```
-Environment
-    jupyter
-	colab
-	usage
-		!, %, run
-    GCP virtual machine
-linux
-	ENV
-	command
-		cd, pwd, ls
-		mkdir, rm, cp
-		head, more, tail, cat
-	util
-		apt
-		git, wget
-		grep, wc, tree
-		tar, unrar, unzip
-	gpu
-		nvidia-smi
-
-python
-	env
-		python
-			interactive
-			execute file
-		pip
-	syntax
-        variable
-        data
-            tuple
-            list
-            dict
-            set
-        loop
-        if
-        comprehensive list
-        function
-        class
-	module
-		import
-
-libray
-    numpy
-        load
-        operation
-        shape
-        slicing
-        reshape
-        axis + sum, mean
-    pandas
-        load
-        view
-        search
-        operation
-            to numpy
-        전처리
-            결측치 처리
-            이상치 처리
-            카테고리 데이터 인코딩
-            normalization
-    matplot
-        draw line graph
-        scatter
-        show image
-    Seaborn
-        histogram
-        scatter
-        line
-        box
 
 
-Deep Learning
-    DNN
-        concept
-            layer, node, weight, bias, activation
-            cost function
-            GD, BP
-        data
-            x, y
-            train, validate, test
-            shuffle
-        learning curve : accuracy, loss
-        tuning
-            overfitting, underfitting
-            dropout, batch normalization, regularization
-            data augmentation
-        Transfer Learning
-    type
-        supervised
-        unsupervised
-        reinforcement
-    model
-        CNN
-            vanilla, named CNN
-        RNN
-        GAN
-    task
-        Classification
-        Object Detection
-        Generation
-	Segmentation
-	Pose Extraction
-	Noise Removing
-	Super Resolution
-	Question answering
-	Auto Captioning
-    data type
-    	attribute data
-	image data
-	natural language data
-	time series data
 
-TensorFlow/Keras
-    basic frame
-        data preparing
-            x, y
-            train, valid, test
-            normalization
-            ImageDataGenerator
-        fit
-        evaluate
-        predict
-    model
-        activation function
-        initializer
-    tuning
-        learning rate
-        regularizer
-        dropout
-        batch normalization
-    save/load
-    compile
-        optimizer
-        loss
-        metric
-```
+# 2일차
 
- 
+
+<br>
+
+
+
+# 기존 
+
+- 인공지능 개념 및 동작 원리의 이해 : [deep_learning_intro.pptx](../material/deep_learning/deep_learning_intro.pptx)
+
+- 딥러닝 개발 환경
+
+- Keras 파악, 딥러닝 코드 파악 실습 : : [dnn_in_keras.ipynb](../material/deep_learning/dnn_in_keras.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_in_keras.ipynb)
+
+<br>
+
+
+- 분류기로서의 DNN
+    - 속성 데이터 IRIS 분류 실습 : [dnn_iris_classification.ipynb](../material/deep_learning/dnn_iris_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_iris_classification.ipynb)
+- 영상 분류기로서의 DNN
+    - 흑백 영상 데이터 MNIST 분류 실습 : [dnn_mnist.ipynb](../material/deep_learning/dnn_mnist.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_mnist.ipynb)
+    - 흑백 영상 fashion MNIST 분류 : [dnn_fashion_mnist.ipynb](../material/deep_learning/dnn_fashion_mnist.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_fashion_mnist.ipynb)
+- 영상 분류기로서의 CNN
+    - 흑백 영상 데이터 MNIST 영상분류 : [cnn_mnist.ipynb](../material/deep_learning/cnn_mnist.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/cnn_mnist.ipynb)
+    - CIFAR10 컬러영상분류 : [cnn_cifar10.ipynb](../material/deep_learning/cnn_cifar10.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/cnn_cifar10.ipynb)
+- 분류기로서의 CNN
+    - IRIS 분류 : [iris_cnn.ipynb](../material/deep_learning/iris_cnn.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/iris_cnn.ipynb)
+
+<br>
+
+- Data Augmentation : [data_augmentation.ipynb](../material/deep_learning/data_augmentation.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/data_augmentation.ipynb)
+- VGG로 영상 분류, 전이학습 : [VGG16_classification_and_cumtom_data_training.ipynb](../material/deep_learning/VGG16_classification_and_cumtom_data_training.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/VGG16_classification_and_cumtom_data_training.ipynb)
+- 커스텀 데이터 VGG 데이터 분류 실습 : [real_practice_glaucoma_classification.ipynb](../material/deep_learning/real_practice_glaucoma_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/real_practice_glaucoma_classification.ipynb)
+
+<br>
