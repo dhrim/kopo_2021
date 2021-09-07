@@ -1,6 +1,7 @@
 
 
-# 한국폴리텍대학, 산업계주도 청년맞춤형훈련 "Keras를 사용한 영상분류"
+# 한국폴리텍대학, 산업계주도 청년맞춤형훈련 <br>
+ "Keras를 사용한 영상분류"
 
 # 1일차
 - 딥러닝의 이해 : [deep_learning_intro.pptx](../material/deep_learning/deep_learning_intro.pptx)
