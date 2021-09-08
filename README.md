@@ -29,7 +29,7 @@
 - 영상 데이터 증강 : [data_augmentation.ipynb](../material/deep_learning/data_augmentation.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/data_augmentation.ipynb)
 - 전이학습의 이해 : [deep_learning_intro.pptx](../material/deep_learning/deep_learning_intro.pptx)
 - VGG16을 사용한 전이학습 : [VGG16_classification_and_cumtom_data_training.ipynb](../material/deep_learning/VGG16_classification_and_cumtom_data_training.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/VGG16_classification_and_cumtom_data_training.ipynb)
-- 커스텀 데이터 전이학습 실습 : [real_practice_glaucoma_classification.ipynb](../material/deep_learning/real_practice_glaucoma_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/real_practice_glaucoma_classification.ipynb)
+- 커스텀 데이터 전이학습 실습 : [flowers.zip](../material/deep_learning/flowers.zip) 
 
 <br>
 
