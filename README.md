@@ -3,9 +3,18 @@
 # 한국폴리텍대학, 산업계주도 청년맞춤형훈련 <br>
  "Keras를 사용한 영상분류"
 
+<br>
+
 # 1일차
 - 딥러닝의 이해 : [deep_learning_intro.pptx](../material/deep_learning/deep_learning_intro.pptx)
-- Keras를 사용한 딥러닝 구현 : [dnn_in_keras.ipynb](../material/deep_learning/dnn_in_keras.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_in_keras.ipynb)
+- Colab 사용법
+<br>
+
+- Keras를 사용한 딥러닝 구현 : [dnn_in_keras_shortly.ipynb](../material/deep_learning/dnn_in_keras_shortly.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_in_keras_shortly.ipynb)
+- DNN을 사용한 IRIS 분류  : [dnn_iris_classification.ipynb](../material/deep_learning/dnn_iris_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_iris_classification.ipynb)
+
+<br>
+
 - 영상 데이터의 이해 : [deep_learning_intro.pptx](../material/deep_learning/deep_learning_intro.pptx)
 - DNN을 사용한 MNIST 흑백 영상 분류 : [dnn_mnist.ipynb](../material/deep_learning/dnn_mnist.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_mnist.ipynb)
 - DNN을 사용한 fashion MNIST 흑백 영상 분류 : [dnn_fashion_mnist.ipynb](../material/deep_learning/dnn_fashion_mnist.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_fashion_mnist.ipynb)
@@ -23,3 +32,10 @@
 - 커스텀 데이터 전이학습 실습 : [real_practice_glaucoma_classification.ipynb](../material/deep_learning/real_practice_glaucoma_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/real_practice_glaucoma_classification.ipynb)
 
 <br>
+
+
+# Template
+
+- 영상 데이터
+    - 분류 - vanilla CNN : [template_image_data_vannilla_cnn_classification.ipynb](material/deep_learning/template_image_data_vannilla_cnn_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/cau_2021/blob/master/material/deep_learning/template_image_data_vannilla_cnn_classification.ipynb)
+    - 분류 - 전이학습 : [template_image_data_transfer_learning_classification.ipynb](material/deep_learning/template_image_data_transfer_learning_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/cau_2021/blob/master/material/deep_learning/template_image_data_transfer_learning_classification.ipynb)
