@@ -37,7 +37,6 @@
 
 - callback : [dnn_in_keras_callback.ipynb](./material/deep_learning/dnn_in_keras_callback.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_in_keras_callback.ipynb)
 - overfitting 처리 : [dnn_in_keras_overfitting.ipynb](./material/deep_learning/dnn_in_keras_overfitting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/dnn_in_keras_overfitting.ipynb)
-
 - MNIST CNN에 callback과 오버피팅 처리 적용 : [boston_house_price_regression.ipynb](./material/deep_learning/boston_house_price_regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/boston_house_price_regression.ipynb)
 
 
