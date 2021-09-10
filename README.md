@@ -25,7 +25,6 @@
 - CNN의 이해 : [deep_learning_intro.pptx](./material/deep_learning/deep_learning_intro.pptx)
 - CNN을 사용한 MNIST 흑백 영상 분류 : [cnn_mnist.ipynb](./material/deep_learning/cnn_mnist.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/cnn_mnist.ipynb)
 - CNN을 사용한 CIFAR10 컬러 영상 분류 : [cnn_cifar10.ipynb](./material/deep_learning/cnn_cifar10.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/cnn_cifar10.ipynb)
-- VGG16을 사용한 컬러 영상 분류
 - 영상 데이터 증강 : [data_augmentation.ipynb](./material/deep_learning/data_augmentation.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/data_augmentation.ipynb)
 - 전이학습의 이해 : [deep_learning_intro.pptx](./material/deep_learning/deep_learning_intro.pptx)
 - VGG16을 사용한 전이학습 : [VGG16_classification_and_cumtom_data_training.ipynb](./material/deep_learning/VGG16_classification_and_cumtom_data_training.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/kopo_2021/blob/master/material/deep_learning/VGG16_classification_and_cumtom_data_training.ipynb)
